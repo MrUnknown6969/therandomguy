@@ -1,0 +1,166 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #222;
+}
+
+header h1 a {
+    color: cyan;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ccc;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: cyan;
+}
+
+nav ul li a i {
+    margin-right: 5px;
+}
+
+/* Landing Section */
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    background: url('images/landing-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.profile {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid cyan;
+}
+
+.profile h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.profile span {
+    color: cyan;
+}
+
+.profile p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Book List Styling */
+.book-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.book-list li {
+    font-size: 1.2rem;
+    color: cyan;
+    margin: 10px 0;
+}
+
+/* Artwork Styling */
+.artwork {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.artwork-item {
+    text-align: center;
+    margin: 15px;
+    color: cyan;
+}
+
+.artwork img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+    margin-bottom: 10px;
+    border: 2px solid cyan;
+}
+
+.artwork-item span {
+    display: block;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 a {
+        font-size: 2rem;
+    }
+
+    .profile h2 {
+        font-size: 1.5rem;
+    }
+
+    .profile p {
+        font-size: 0.9rem;
+    }
+}
