@@ -1,53 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Books - The Unknown Guy</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Unknown Guy</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1><a href="index.html">The Unknown Guy</a></h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="artworks.html">Artworks</a></li>
-                <li><a href="games.html">Games</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="copyright.html">Copyright</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1><a href="index.html">The Unknown Guy</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="books.html"><i class="fas fa-book"></i> Books</a></li>
+          <li><a href="artworks.html"><i class="fas fa-paint-brush"></i> Artworks</a></li>
+          <li><a href="games.html"><i class="fas fa-gamepad"></i> Games</a></li>
+          <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+          <li><a href="copyright.html"><i class="fas fa-copyright"></i> Copyright</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <section>
-        <h2 style="text-align: center; margin-top: 2rem;">My Books</h2>
-        <div class="book-list">
-            <div class="artwork-item">
-                <img src="books/book1.png" alt="Book 1">
-                <h3>1. Time Unlocked: A Beginner's Journey Through Time Travel</h3>
-                <button onclick="window.open('books/Time-Unlocked.pdf', '_blank')">Read Now</button>
-            </div>
-            <div class="artwork-item">
-                <img src="books/book2.png" alt="Book 2">
-                <h3>2. Dara Shikoh: The Fall Begins</h3>
-                <button onclick="window.open('books/Dara-Shikoh.pdf', '_blank')">Read Now</button>
-            </div>
-            <div class="artwork-item">
-                <img src="books/book3.png" alt="Book 3">
-                <h3>3. Crimes In Drak</h3>
-                <button onclick="window.open('books/Crimes-In-Drak.pdf', '_blank')">Read Now</button>
-            </div>
-        </div>
-        <div style="text-align: center; margin: 2rem;">
-            <button onclick="history.back()">Back</button>
-        </div>
-    </section>
+  <!-- Landing Section -->
+  <section class="landing">
+    <div class="profile">
+      <img src="images/profile.jpg" alt="Profile Photo" class="profile-img" />
+      <h2>Hello, I'm <span>Utkarsh</span></h2>
+      <p>Welcome to my personal website where I showcase my works in books, art, and interactive games. Explore my projects and connect with me!</p>
+    </div>
+  </section>
 
-    <footer>
-        <p>© 2025 The Unknown Guy</p>
-    </footer>
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2025 The Unknown Guy | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
